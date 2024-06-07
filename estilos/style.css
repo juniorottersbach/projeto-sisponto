@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root {
+    --fonte: "Open Sans", sans-serif;
+}
+* {
+    font-family: var(--fonte);
+    margin: 0px;
+    padding: 0px
+}
+header {
+    background-color: #285993;
+    text-align: center;
+    line-height: 2em;
+    padding: 50px 0px 50px 0px;
+    font-size: 2em;
+    color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.521);
+}
+body {
+    background-color: #285993;
+    line-height: 2em;
+}
+main {
+    margin: auto;
+    max-width: 700px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.521);
+}
+p.titulo {
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 50px;
+}
+p.obs {
+    font-size: 0.5em;
+    text-align: center;
+    line-height: 1em;
+    padding-bottom: 2px;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+ol {
+    list-style-position: outside;
+    padding-left: 30px;
+}
+ul {
+    list-style: disc;
+    list-style-position: inside;
+    padding-left: 10px;
+}
+ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+li {
+    font-size: 1.2em;
+}
+img.especial {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+p#solicitacao {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 50px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: lightgray;
+}
