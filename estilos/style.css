@@ -76,6 +76,7 @@ p#solicitacao {
     font-weight: bold;
     text-align: center;
     text-decoration: none;
+    padding-top: 50px;
     padding-bottom: 50px;
     max-width: 300px;
     margin: auto;
